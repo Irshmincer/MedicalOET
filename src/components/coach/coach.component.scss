@@ -1,0 +1,153 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 10rem;
+  row-gap: 13em;
+  column-gap: 5em;
+}
+
+.speaking {
+  width: 400px;
+  background: linear-gradient(
+    180.24deg,
+    rgb(255, 220, 169) 0%,
+    rgb(255, 255, 255) 35%
+  );
+  border-radius: 16px;
+  height: 20rem;
+}
+.listening {
+  width: 400px;
+  background: linear-gradient(
+    180.24deg,
+    rgb(206, 231, 208) 0%,
+    rgb(255, 255, 255) 30%
+  );
+  border-radius: 16px;
+  height: 20rem;
+}
+.writing {
+  width: 400px;
+  background: linear-gradient(
+    180.24deg,
+    rgb(255, 216, 214) 0%,
+    rgb(255, 255, 255) 40%
+  );
+  border-radius: 16px;
+  height: 20rem;
+}
+.reading {
+  width: 400px;
+  background: linear-gradient(
+    180.24deg,
+    rgb(210, 218, 255) 0%,
+    rgb(255, 255, 255) 40%
+  );
+  border-radius: 16px;
+  height: 20rem;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+button {
+  background: transparent;
+}
+
+.col-sm {
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .listening {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(206, 231, 208) 0%,
+      rgb(255, 255, 255) 30%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 10rem;
+  }
+
+  .writing {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(255, 216, 214) 0%,
+      rgb(255, 255, 255) 40%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 10rem;
+  }
+  .reading {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(210, 218, 255) 0%,
+      rgb(255, 255, 255) 40%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .listening {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(206, 231, 208) 0%,
+      rgb(255, 255, 255) 30%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 10rem;
+  }
+
+  .writing {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(255, 216, 214) 0%,
+      rgb(255, 255, 255) 40%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 10rem;
+  }
+  .reading {
+    width: 400px;
+    background: linear-gradient(
+      180.24deg,
+      rgb(210, 218, 255) 0%,
+      rgb(255, 255, 255) 40%
+    );
+    border-radius: 16px;
+    height: 20rem;
+    display: flex;
+    top: 20rem;
+  }
+}
